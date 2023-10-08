@@ -26,7 +26,9 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="231dp"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
             android:layout_centerHorizontal="true"
             android:src="@drawable/wallpaper" />
 
@@ -34,66 +36,139 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-
-
-            <ImageButton
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:paddingBottom="70dp"
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_margin="3dp"
-                android:background="@android:color/white"
-                android:src="@drawable/button1"
-                android:scaleType="fitCenter"
-                android:scaleX=".7"
-                android:scaleY=".7"
-            />
-            <ImageButton
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:paddingBottom="70dp"
+                android:background="@android:color/white">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:paddingBottom="100dp"
+                    android:src="@drawable/button1"
+                    android:scaleType="fitCenter"
+                    android:elevation="4dp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="Login Screens"
+                    android:textColor="#717171"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_margin="3dp"
-                android:background="@android:color/white"
-                android:src="@drawable/button2"
-                android:scaleType="fitCenter"
-                android:scaleX=".7"
-                android:scaleY=".7"
-                />
+                android:background="@android:color/white">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:paddingBottom="100dp"
+                    android:src="@drawable/button2"
+                    android:scaleType="fitCenter"
+                    android:elevation="4dp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="Sign Up Screens"
+                    android:textColor="#717171"
+                    android:textSize="16sp" />
+            </RelativeLayout>
         </LinearLayout>
+
+
+
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-
-
-            <ImageButton
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:paddingBottom="70dp"
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_margin="3dp"
-                android:background="@android:color/white"
-                android:src="@drawable/button3"
-                android:scaleType="fitCenter"
-                android:scaleX=".7"
-                android:scaleY=".7"
-                />
-            <ImageButton
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:paddingBottom="70dp"
+                android:background="@android:color/white">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:paddingBottom="100dp"
+                    android:src="@drawable/button3"
+                    android:scaleType="fitCenter"
+                    android:elevation="4dp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="Profile Screens"
+                    android:textColor="#717171"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:layout_margin="3dp"
-                android:background="@android:color/white"
-                android:src="@drawable/button4"
-                android:scaleType="fitCenter"
-                android:scaleX=".7"
-                android:scaleY=".7"
-                />
+                android:background="@android:color/white">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:paddingBottom="100dp"
+
+                    android:src="@drawable/button4"
+                    android:scaleType="fitCenter"
+                    android:elevation="4dp"
+                    android:background="@android:color/transparent"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:paddingTop="70dp"
+                    android:text="DashBoard Screens"
+                    android:textColor="#717171"
+                    android:textSize="16sp" />
+            </RelativeLayout>
         </LinearLayout>
 
 
